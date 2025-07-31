@@ -27,8 +27,8 @@ The Aegis Corporation Lab is a virtualised environment designed to simulate a si
 
 ## 📖 Documentation
 
-- [pfSense Setup](docs/pfsense/pfsense-configuration.md)
-- [pfSense Configuration](docs/pfsense/pfsense-setup-guide.md)
+- [pfSense Setup](docs/pfsense/pfsense-setup-guide.md)
+- [pfSense Configuration](docs/pfsense/pfsense-configuration.md)
 
 ## 🔗 Resources
 
