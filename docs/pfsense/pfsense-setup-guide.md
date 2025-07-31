@@ -28,48 +28,48 @@ pfSense serves as the central network gateway for the Aegis lab, providing:
   <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/2bb37400c1bb01f0aa470ac447c4dcdeef49358a/assets/pfsense-license-accept.png" alt="Description" width="700" />
 </div>
 3. Select "Install pfSense"
-![3](aegis-corp-soc-lab/assets/pfsense-install.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-install.png" alt="Description" width="700" />
 4. Configure WAN interface to obtain IP via DHCP
-![4](aegis-corp-soc-lab/assets/pfsense-wan-select.png)
-![5](aegis-corp-soc-lab/assets/pfsense-dhcp.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-wan-select.png" alt="Description" width="700" />
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-dhcp.png" alt="Description" width="700" />
 6. Skip the LAN interface assignment (configure later)
-![6](aegis-corp-soc-lab/assets/pfsense-lan-skip.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-lan-skip.png" width="700" />
 7. Continue with installation process
-![7](aegis-corp-soc-lab/assets/pfsense-continue-wan.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-continue-wan.png" alt="Description" width="700" />
 8. Wait for Netgate ID verification (will timeout for CE edition)
-![8](aegis-corp-soc-lab/assets/pfsense-netgate-check.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-netgate-check.png" alt="Description" width="700" />
 9. Select "pfSense CE" when license check fails
-![9](aegis-corp-soc-lab/assets/pfsense-install-ce.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-install-ce.png" alt="Description" width="700" />
 10. **File System Configuration:**
    - Accept ZFS (recommended)
    - Use GPT partitioning scheme
-![10](aegis-corp-soc-lab/assets/pfsense-zfs-gpt.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-zfs-gpt.png" alt="Description" width="700" />
 11. **Storage Configuration:**
     - Select striping (single disk setup)
     - Choose the main disk
     - **⚠️ Confirm data wipe** - this will erase the disk
-![11](aegis-corp-soc-lab/assets/pfsense-stripe.png)
-![12](aegis-corp-soc-lab/assets/pfsense-disk-select.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-stripe.png" alt="Description" width="700" />
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-disk-select.png" alt="Description" width="700" />
 12. **Version Selection:**
     - Select latest stable build (2.8.0 at time of writing)
-![13](aegis-corp-soc-lab/assets/pfsense-version-select.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-version-select.png" alt="Description" width="700" />
 13. **Installation Process:**
     - Wait for package downloads and installation
     - Select to reboot the system after installation has completed
-![14](aegis-corp-soc-lab/assets/pfsense-installing.png)
-![15](aegis-corp-soc-lab/assets/pfsense-reboot.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-installing.png" alt="Description" width="700" />
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-reboot.png" alt="Description" width="700" />
 14. **Post-Installation Interface Setup:**
     - Select option **2** from console menu
     - Configure LAN interface: `192.168.10.1/24`
     - **Skip IPv6** configuration for this lab
     - **Decline DHCP server** setup (configure via web interface)
-![16](aegis-corp-soc-lab/assets/pfsense-done.png)
-![17](aegis-corp-soc-lab/assets/pfsense-option-2.png)
-![18](aegis-corp-soc-lab/assets/pfsense-option-2-done.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-done.png" alt="Description" width="700" />
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-option-2.png" alt="Description" width="700" />
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-option-2-done.png" alt="Description" width="700" />
 15. **Verification:**
     - Confirm interface assignments are correct
     - Note the web interface URL for next steps
-![19](aegis-corp-soc-lab/assets/pfsense-finished.png)
+  <img src="https://github.com/echointheshell/aegis-corp-soc-lab/blob/fba923a1a991b6a1555f5f0a8e4f321ad8a7f5b1/assets/pfsense-finished.png" alt="Description" width="700" />
 
 ## Step 3: Web Interface Configuration
 
