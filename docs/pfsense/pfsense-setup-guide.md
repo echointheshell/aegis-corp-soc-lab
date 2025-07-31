@@ -23,52 +23,52 @@ pfSense serves as the central network gateway for the Aegis lab, providing:
 ## Step 2: pfSense Installation
 
 1. Boot from the pfSense ISO
-![1](assets/pfsense-license-accept.png)
+![1](aegis-corp-soc-lab/assets/pfsense-license-accept.png)
 2. Accept the Copyright agreement
-![2](assets/)
+![2](aegis-corp-soc-lab/assets/pfsense-license-accept.png)
 3. Select "Install pfSense"
-![3](assets/pfsense-install.png)
+![3](aegis-corp-soc-lab/assets/pfsense-install.png)
 4. Configure WAN interface to obtain IP via DHCP
-![4](assets/pfsense-wan-select.png)
-![5](assets/pfsense-dhcp.png)
+![4](aegis-corp-soc-lab/assets/pfsense-wan-select.png)
+![5](aegis-corp-soc-lab/assets/pfsense-dhcp.png)
 6. Skip the LAN interface assignment (configure later)
-![6](assets/pfsense-lan-skip.png)
+![6](aegis-corp-soc-lab/assets/pfsense-lan-skip.png)
 7. Continue with installation process
-![7](assets/pfsense-continue-wan.png)
+![7](aegis-corp-soc-lab/assets/pfsense-continue-wan.png)
 8. Wait for Netgate ID verification (will timeout for CE edition)
-![8](assets/pfsense-netgate-check.png)
+![8](aegis-corp-soc-lab/assets/pfsense-netgate-check.png)
 9. Select "pfSense CE" when license check fails
-![9](assets/pfsense-install-ce.png)
+![9](aegis-corp-soc-lab/assets/pfsense-install-ce.png)
 10. **File System Configuration:**
    - Accept ZFS (recommended)
    - Use GPT partitioning scheme
-![10](assets/pfsense-zfs-gpt.png)
+![10](aegis-corp-soc-lab/assets/pfsense-zfs-gpt.png)
 11. **Storage Configuration:**
     - Select striping (single disk setup)
     - Choose the main disk
     - **⚠️ Confirm data wipe** - this will erase the disk
-![11](assets/pfsense-stripe.png)
-![12](assets/pfsense-disk-select.png)
+![11](aegis-corp-soc-lab/assets/pfsense-stripe.png)
+![12](aegis-corp-soc-lab/assets/pfsense-disk-select.png)
 12. **Version Selection:**
     - Select latest stable build (2.8.0 at time of writing)
-![13](assets/pfsense-version-select.png)
+![13](aegis-corp-soc-lab/assets/pfsense-version-select.png)
 13. **Installation Process:**
     - Wait for package downloads and installation
     - Select to reboot the system after installation has completed
-![14](assets/pfsense-installing.png)
-![15](assets/pfsense-reboot.png)
+![14](aegis-corp-soc-lab/assets/pfsense-installing.png)
+![15](aegis-corp-soc-lab/assets/pfsense-reboot.png)
 14. **Post-Installation Interface Setup:**
     - Select option **2** from console menu
     - Configure LAN interface: `192.168.10.1/24`
     - **Skip IPv6** configuration for this lab
     - **Decline DHCP server** setup (configure via web interface)
-![16](assets/pfsense-done.png)
-![17](assets/pfsense-option-2.png)
-![18](assets/pfsense-option-2-done.png)
+![16](aegis-corp-soc-lab/assets/pfsense-done.png)
+![17](aegis-corp-soc-lab/assets/pfsense-option-2.png)
+![18](aegis-corp-soc-lab/assets/pfsense-option-2-done.png)
 15. **Verification:**
     - Confirm interface assignments are correct
     - Note the web interface URL for next steps
-![19](assets/pfsense-finished.png)
+![19](aegis-corp-soc-lab/assets/pfsense-finished.png)
 
 ## Step 3: Web Interface Configuration
 
