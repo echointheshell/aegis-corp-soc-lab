@@ -24,87 +24,32 @@ pfSense serves as the central network gateway for the Aegis lab, providing:
 
 1. Boot from the pfSense ISO
 2. Accept the Copyright agreement
-<div align="left">
-  <img src="/assets/pfsense-license-accept.png" alt="Description" width="700" />
-</div>
 3. Select "Install pfSense"
-<br>
-<div align="left">
-  <img src="/assets/pfsense-install.png" alt="Description" width="700" />
-</div>
 4. Configure WAN interface to obtain IP via DHCP
-<br>
-<div align="left">
-  <img src="/assets/pfsense-wan-select.png" alt="Description" width="700" />
-</div>
 5. Skip the LAN interface assignment (configure later)
-<br>
-<div align="left">
-  <img src="/assets/pfsense-lan-skip.png" alt="Description" width="700" />
-</div>
 6. Continue with installation process
-<br>
-<div align="left">
-  <img src="/assets/pfsense-continue-wan.png" alt="Description" width="700" />
-</div>
 7. Wait for Netgate ID verification (will timeout for CE edition)
-<br>
-<div align="left">
-  <img src="/assets/pfsense-netgate-check.png" alt="Description" width="700" />
-</div>
 8. Select "pfSense CE" when license check fails
-<br>
-<div align="left">
-  <img src="/assets/pfsense-install-ce.png" alt="Description" width="700" />
-</div>
-9. File System Configuration:
+9. **File System Configuration:**
    - Accept ZFS (recommended)
    - Use GPT partitioning scheme
-<br>
-<div align="left">
-  <img src="/assets/pfsense-zfs-gpt.png" alt="Description" width="700" />
-</div>
-10. Storage Configuration:
+10. **Storage Configuration:**
     - Select striping (single disk setup)
     - Choose the main disk
     - **⚠️ Confirm data wipe** - this will erase the disk
-<br>
-<div align="left">
-  <img src="/assets/pfsense-stripe.png" alt="Description" width="700" />
-  <img src="/assets/pfsense-disk-select.png" alt="Description" width="700" />
-</div>
-11. Version Selection:
+11. **Version Selection:**
     - Select latest stable build (2.8.0 at time of writing)
-<br>
-<div align="left">
-  <img src="/assets/pfsense-version-select.png" alt="Description" width="700" />
-</div>
-12. Installation Process:
+12. **Installation Process:**
     - Wait for package downloads and installation
-    - Select to reboot the system after installation has completed
-<br>
-<div align="left">
-  <img src="/assets/pfsense-installing.png" alt="Description" width="700" />
-  <img src="/assets/pfsense-reboot.png" alt="Description" width="700" />
-</div>
-13. Post-Installation Interface Setup:
+    - Select to reboot after installation
+13. **Post-Installation Interface Setup:**
     - Select option **2** from console menu
     - Configure LAN interface: `192.168.10.1/24`
     - **Skip IPv6** configuration for this lab
     - **Decline DHCP server** setup (configure via web interface)
-<br>
-<div align="left">
-  <img src="/assets/pfsense-done.png" alt="Description" width="700" />
-  <img src="/assets/pfsense-option-2.png" alt="Description" width="700" />
-  <img src="/assets/pfsense-option-2-done.png" alt="Description" width="700" />
-</div>
 14. **Verification:**
     - Confirm interface assignments are correct
     - Note the web interface URL for next steps
-<br>
-<div align="left">
-  <img src="/assets/pfsense-finished.png" alt="Description" width="700" />
-</div>
 
 ## Step 3: Web Interface Configuration
 
