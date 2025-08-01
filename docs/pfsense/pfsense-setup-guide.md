@@ -24,7 +24,7 @@ pfSense serves as the central network gateway for the Aegis lab, providing:
 
 1. Boot from the pfSense ISO
 2. Accept the Copyright agreement
-<div align="center">
+<div align="left">
   <img src="/assets/pfsense-license-accept.png" alt="Description" width="700" />
 </div>
 3. Select "Install pfSense"
