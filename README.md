@@ -12,18 +12,18 @@ The Aegis Corporation Lab is a virtualised environment designed to simulate a si
 
 ### Core Components
 
-| Component              | Hostname    | Purpose                                        |
-| ---------------------- | ----------- | ---------------------------------------------- |
-| **pfSense Firewall**   | net-fw-01   | Network security gateway                       |
-| **Wazuh SIEM**         | lan-siem-01 | Security monitoring & alerting                 |
-| **Zeek**               | lan-ids-01  | Intrusion detection                            |
-| **Kali Linux**         | lan-atk-01  | Penetration testing & attack simulation        |
-| **REMnux**             | lan-dfir-01 | Malware analysis & forensics                   |
-| **MITRE Caldera**      | lan-red-01  | Adversary emulation platform                   |
-| **Windows AD/DC**      | lan-dc-01   | Domain services & target environment           |
-| Windows 11 Workstation | lan-ws-01   | GPO and Security policies & target environment |
-| Linux Server 22.04     | lan-log-01  | Syslog and web server & target environment     |
-| **OWASP Juice Shop**   | lan-app-01  | Vulnerable web application                     |
+| Component                  | Hostname    | Purpose                                        |
+| -------------------------- | ----------- | ---------------------------------------------- |
+| **pfSense Firewall**       | net-fw-01   | Network security gateway                       |
+| **Wazuh SIEM**             | lan-siem-01 | Security monitoring & alerting                 |
+| **Zeek**                   | lan-ids-01  | Intrusion detection                            |
+| **Kali Linux**             | lan-atk-01  | Penetration testing & attack simulation        |
+| **REMnux**                 | lan-dfir-01 | Malware analysis & forensics                   |
+| **MITRE Caldera**          | lan-red-01  | Adversary emulation platform                   |
+| **Windows AD/DC**          | lan-dc-01   | Domain services & target environment           |
+| **Windows 11 Workstation** | lan-ws-01   | GPO and Security policies & target environment |
+| **Linux Server 22.04**     | lan-web-01  | Syslog and web server & target environment     |
+| **OWASP Juice Shop**       | lan-web-02  | Vulnerable web application                     |
 
 ## 📖 Documentation
 
