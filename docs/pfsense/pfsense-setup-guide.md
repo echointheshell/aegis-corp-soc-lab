@@ -120,26 +120,6 @@ pfSense serves as the central network gateway for the Aegis lab, providing:
 ![Image](/assets/pfsense-finished.png)
 
 
-## Step 3: Web Interface Configuration
+**This concludes the setup of pfSense to the point where WebConfigurator can be accessed in a browser to start the configuration.**
 
-**Access via:** https://192.168.10.1
-
-### Initial Setup Wizard
-- **Username:** admin
-- **Password:** pfsense (change immediately)
-
-### System Configuration
-- [ ] **Hostname:** firewall
-- [ ] **Domain:** aegiscorp.org  
-- [ ] **Primary DNS:** 8.8.8.8
-- [ ] **Secondary DNS:** 1.1.1.1
-
-### Interface Configuration
-#### WAN Interface (em0)
-- **Type:** DHCP
-- **Network:** 172.16.50.0/24
-- **Gateway:** Auto-assigned
-
-#### LAN Interface (em1)  
-- **Static IP:** 192.168.10.1/24
-- **DHCP Range:** 192.168.10.100 - 192.168.10.200
+Next up: [Configuring pfSense](pfsense-configuration-guide.md)
