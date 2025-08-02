@@ -122,4 +122,4 @@ pfSense serves as the central network gateway for the Aegis lab, providing:
 
 **This concludes the setup of pfSense to the point where WebConfigurator can be accessed in a browser to start the configuration.**
 
-Next up: [Configuring pfSense](pfsense-configuration-guide.md)
+Next up: [Configuring pfSense](pfsense-configuration.md)
