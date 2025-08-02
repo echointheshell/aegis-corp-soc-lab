@@ -4,7 +4,7 @@ The Aegis Corporation Lab is a virtualised environment designed to simulate a si
 
 ## 🏗️ Architecture
 
-![Lab Network Diagram](assets/lab-diagram-v1.1.png)
+![Lab Network Diagram](assets/lab-diagram-v1.2.png)
 
 ### Network Segments
 - **WAN Network (VNET5)**: `172.16.50.0/24` - External-facing network (WAN)
