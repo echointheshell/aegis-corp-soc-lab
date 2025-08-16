@@ -7,8 +7,13 @@ The Aegis Corporation Lab is a virtualised environment designed to simulate a si
 ![Lab Network Diagram](assets/lab-diagram-v3.0.png)
 
 ### Network Segments
-- **WAN Network (VNET5)**: `172.16.50.0/24` - External-facing network (WAN)
-- **LAN Network (VNET1)**: `192.168.10.0/24` - Internal network (LAN)
+- **VNET10**: `172.16.50.0/24` - External networks/Gateway (WAN)
+- **VNET1**: `192.168.10.0/24` - User devices (LAN)
+- **VNET2**: `192.168.10.0/24` - Server infrastructure (LAN)
+- **VNET3**: `192.168.10.0/24` - External-facing services (DMZ)
+- **VNET4**: `192.168.10.0/24` - Security operations (LAN)
+- **VNET5**: `192.168.10.0/24` - Monitoring network (LAN)
+- **VNET6**: `192.168.10.0/24` - Adversarial network (LAN)
 
 ### Core Components
 
