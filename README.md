@@ -22,12 +22,12 @@ The Aegis Corporation Lab is a virtualised environment designed to simulate a si
 | **pfSense Firewall**       | net-fw-01   | Network security gateway                       |
 | **Windows 11 Workstation** | lan-ws-01   | GPO and Security policies & target environment |
 | **Windows 11 Workstation** | lan-ws-02   | GPO and Security policies & hardening          |
-| **Windows AD/DC**          | lan-dc-01   | Domain services & target environment           |
+| **Windows AD/DC**          | srv-dc-01   | Domain services & target environment           |
 | **Linux Server 22.04**     | srv-web-01  | Syslog and web server & target environment     |
 | **OWASP Juice Shop**       | dmz-web-02  | Vulnerable web application                     |
-| **Wazuh SIEM**             | lan-siem-01 | Security monitoring & alerting                 |
-| **Tsurugi Linux**          | lan-siem-01 | DFIR & Linux malware analysis                  |
-| **REMnux**                 | lan-dfir-01 | Windows malware analysis                       |
+| **Wazuh SIEM**             | sec-siem-01 | Security monitoring & alerting                 |
+| **Tsurugi Linux**          | sec-siem-01 | DFIR & Linux malware analysis                  |
+| **REMnux**                 | sec-dfir-01 | Windows malware analysis                       |
 | **Zeek**                   | mon-ids-01  | Intrusion detection and monitoring             |
 | **Kali Linux**             | adv-atk-01  | Penetration testing & attack simulation        |
 | **MITRE Caldera**          | adv-red-01  | Adversary emulation platform                   |
