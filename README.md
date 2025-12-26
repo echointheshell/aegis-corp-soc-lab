@@ -5,7 +5,7 @@ The aim is to provide an isolated and controlled sandbox for hands on exposure t
 
 ## 🏗️ Architecture
 
-![Lab Network Diagram](assets/Lab Diagram v4.0.png)
+![Lab Network Diagram](assets/lab-diagram-v4.0.png)
 
 ### Network Segments
 - **VNET10**: `172.16.50.0/24` - External networks/Gateway (WAN)
