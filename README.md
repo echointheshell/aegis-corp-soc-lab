@@ -17,15 +17,15 @@ The aim is to provide an isolated and controlled sandbox for hands on exposure t
 
 ### Core Components
 
-| Component                       | Hostname    | vCPUs | RAM (GB) | Disk (GB) | Purpose                                            |
-| ------------------------------- | ----------- | ----- | -------- | --------- | -------------------------------------------------- |
-| **pfSense Firewall + Suricata** | net-fw-01   |   2   |     2    |     20    | Network security gateway                           |
-| **Windows 11 Workstation**      | lan-ws-01   |   2   |     4    |     80    | GPOs, security policies & network services         |
-| **Windows AD/DC**               | srv-dc-01   |   2   |     3    |     60    | Domain services & target environment               |
-| **Ansible controller**          | srv-auto-01 |   2   |     2    |     30    | Automation platform for infrastucture and security |
-| **OWASP Juice Shop**            | dmz-web-02  |   1   |     1    |     25    | Vulnerable web application                         |
-| **Wazuh SIEM**                  | sec-siem-01 |   4   |     8    |     100   | Security monitoring, alerting & Response           |
-| **Kali Linux + MITRE Caldera**  | adv-atk-01  |   4   |     4    |     80    | Penetration testing, sversary simulation & DFIR    |
+| Component                       | Hostname    | vCPU | RAM (GB) | Disk (GB) | Purpose                                             |
+| ------------------------------- | ----------- | ---- | -------- | --------- | -------------------------------------------------- |
+| **pfSense Firewall + Suricata** | net-fw-01   |   2  |     2    |     20    | Network security gateway                           |
+| **Windows 11 Workstation**      | lan-ws-01   |   2  |     4    |     80    | GPOs, security policies & network services         |
+| **Windows AD/DC**               | srv-dc-01   |   2  |     3    |     60    | Domain services & target environment               |
+| **Ansible controller**          | srv-auto-01 |   2  |     2    |     30    | Automation for infrastucture and security          |
+| **OWASP Juice Shop**            | dmz-web-02  |   1  |     1    |     25    | Vulnerable web application                         |
+| **Wazuh SIEM**                  | sec-siem-01 |   4  |     8    |     100   | Security monitoring, alerting & Response           |
+| **Kali Linux + MITRE Caldera**  | adv-atk-01  |   4  |     4    |     80    | Penetration testing, sversary simulation & DFIR    |
 
 ## 📖 Documentation
 
